@@ -16,29 +16,68 @@
             h1 {
             font-size: 250%;
         }
+
+            h2 {
+                font-size: 150%;
+            }
+
+            p {
+                font-size: 100%;
+            }
         }
 
         @media screen and (max-width: 1199px) {
             h1 {
             font-size: 400%;
         }
+
+            h2 {
+                font-size: 150%;
+            }
+
+            p {
+                font-size: 125%;
+            }
         }
 
         @media screen and (min-width: 1200px) {
             h1 {
             font-size: 500%;
         }
+
+            h2 {
+                font-size: 200%;
+            }
+
+            p {
+                font-size: 150%;
+            }
         }
 
         .nbg {
             background-color: black;
+        }
+
+        body {
+            background-color: bisque;
+        }
+        
+        .col {
+            background-color: tan;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .img {
+            width: 100%;
         }
        
     </style>
 </head>
 
 <body>
-    <div class="container-fluid nbg mt-3 d-md-none">
+    <div class="nbg mt-3 d-md-none">
         <nav class="navbar nav nav-tabs nav-pills" role="tablist">
             <li class="nav-item">
                 <a class="nav-link" href="index.html">Home</a>
@@ -58,8 +97,8 @@
           </nav>          
       </div>
     
-    <div class="row">
-    <div class="row container-fluid nbg mt-3 d-none d-md-flex col-md-3 col-lg-2">
+    <div>
+    <div class="nbg mt-3 d-none d-md-flex col-md-3 col-lg-2">
         <div class="nav flex-column nav-tabs nav-pills" role="tablist">
             <ul class="container-fluid">
                 <li class="nav-item">
@@ -80,6 +119,102 @@
             </ul>
         </div>
     </div>
+    
+    <div class="float-start col-sm-12 col-md-5 col-lg-5">
+        <div>
+            <div class="row container mt-3 col justify-content-center col-sm-12 col-md-12 col-lg-12">
+                <h2 class="row justify-content-center">Circa</h2>
+                <button type="button" class="btn btn-primary col-sm-6 col-md-5 col-lg-3" data-bs-toggle="collapse" data-bs-target="#circa">Click Me</button>
+                <div id="circa" class="collapse">
+                    <p>Kingdoms of Upper and Lower Egypt unite. Successive dynasties witness flourishing trade, prosperity and the development of great cultural traditions. Writing, 
+                    including hieroglyphics, is used as an instrument of state. Construction of the pyramids - around 2,500 BC - is a formidable engineering achievement.
+                    <img src="circa.jpg" class="img col-sm-10 col-md-6 col-lg-6"></p>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="row container mt-3 col justify-content-center col-sm-12 col-md-12 col-lg-12">
+                <h2 class="row justify-content-center">Inventing writing</h2>
+                <button type="button" class="btn btn-primary col-sm-6 col-md-5 col-lg-3" data-bs-toggle="collapse" data-bs-target="#writing">Click Me</button>
+                <div id="writing" class="collapse">
+                    <p>Writing using hieroglyphic signs develops. The ancient Egyptians use hieroglyphs for over 3,600 years to record important information.</p>
+                    <img src="writing.png" class="img col-sm-10 col-md-6 col-lg-6">
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="row container mt-3 col col justify-content-center col-sm-12 col-md-12 col-lg-12">
+                <h2 class="row justify-content-center">The Great Pyramid</h2>
+                <button type="button" class="btn btn-primary col-sm-6 col-md-5 col-lg-3" data-bs-toggle="collapse" data-bs-target="#pyramid">Click Me</button>
+                <div id="pyramid" class="collapse">
+                    <p>Three large stone pyramids are built at Giza (near present-day Cairo). The pyramid built for the king Khafre is guarded by a huge stone sphinx with the body of a lion and the king's head.</p> 
+                    <img src="pyramid.jpg" class="img col-sm-10 col-md-6 col-lg-6">
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="row container mt-3 col col justify-content-center col-sm-12 col-md-12 col-lg-12">
+                <h2 class="row justify-content-center">Underworld</h2>
+                <button type="button" class="btn btn-primary col-sm-6 col-md-5 col-lg-3" data-bs-toggle="collapse" data-bs-target="#underworld">Click Me</button>
+                <div id="underworld" class="collapse">
+                    <p>Coffin texts are first used. These spells help the dead person travel through the underworld to the afterlife. They are written on the coffins of wealthy ancient Egyptians.
+                    First Intermediate Period (about 2181–2055 BC) </p>
+                    <img src="underworld.jpg" class="img col-sm-10 col-md-6 col-lg-6">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="float-end col-sm-12 col-md-5 col-lg-5">
+        <div>
+            <div class="row container mt-3 col justify-content-center col-sm-12 col-md-12 col-lg-12">
+                <h2 class="row justify-content-center">Provisions for the dead</h2>
+                <button type="button" class="btn btn-primary col-sm-6 col-md-5 col-lg-3" data-bs-toggle="collapse" data-bs-target="#provisions">Click Me</button>
+                <div id="provisions" class="collapse">
+                    <p>During the Middle Kingdom, wealthy people have wooden models of people preparing food or sailing on a boat put in their tombs to ensure good meals and safe travel in the afterlife. 
+                    Middle Kingdom (about 2055–1795 BC)</p>
+                    <img src="provision.jpg" class="img col-sm-10 col-md-6 col-lg-6">
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="row container mt-3 col justify-content-center col-sm-12 col-md-12 col-lg-12">
+                <h2 class="row justify-content-center">Peace and prosperity</h2>
+                <button type="button" class="btn btn-primary col-sm-6 col-md-5 col-lg-3" data-bs-toggle="collapse" data-bs-target="#peace">Click Me</button>
+                <div id="peace" class="collapse">
+                    <p>Senusret III rules as king. He expands the territory controlled by Egypt and, during his 39-year reign, ancient Egypt is wealthy and powerful.
+                    Middle Kingdom (about 2055–1795 BC) </p>
+                    <img src="Peace.jpg" class="img col-sm-10 col-md-6 col-lg-6">
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="row container mt-3 col justify-content-center col-sm-12 col-md-12 col-lg-12">
+                <h2 class="row justify-content-center">Book of the Dead</h2>
+                <button type="button" class="btn btn-primary col-sm-6 col-md-5 col-lg-3" data-bs-toggle="collapse" data-bs-target="#dead">Click Me</button>
+                <div id="dead" class="collapse">
+                    <p>The Book of the Dead, a collection of about 200 spells to protect the dead during their journey to the afterlife, is first used. It is usually written on papyrus and put in a coffin or in a small hollow statue. 
+                    Second Intermediate Period (about 1795–1550 BC)</p>
+                    <img src="dead.jpg" class="img col-sm-10 col-md-6 col-lg-6">
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="row container mt-3 col justify-content-center col-sm-12 col-md-12 col-lg-12">
+                <h2 class="row justify-content-center">Magical afterlife assistance</h2>
+                <button type="button" class="btn btn-primary col-sm-6 col-md-5 col-lg-3" data-bs-toggle="collapse" data-bs-target="#magical">Click Me</button>
+                <div id="magical" class="collapse">
+                    <p>Some ancient Egyptians have small figures called shabtis placed in their tombs to magically work for them in the afterlife. From about 1500 BC onwards, the number of shabtis in royal tombs increases. By 1000 BC, many wealthy people are buried with hundreds of them.
+                    New Kingdom (about 1550–1069 BC)</p>
+                    <img src="magical.jpg" class="img col-sm-10 col-md-6 col-lg-6">
+                </div>
+            </div>
+        </div>
+    </div>
+
     
         </div>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
