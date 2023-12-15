@@ -16,11 +16,19 @@
             h1 {
             font-size: 250%;
         }
+
+        p {
+            font-size: 80%;
+        }
         }
 
         @media screen and (max-width: 1199px) {
             h1 {
             font-size: 400%;
+        }
+
+        p {
+            font-size: 90%;
         }
         }
 
@@ -28,17 +36,29 @@
             h1 {
             font-size: 500%;
         }
+
+        p {
+            font-size: 100%;
+        }
         }
      
         .nbg {
             background-color: black;
+        }
+
+        .img {
+            background-color: tan;
+        }
+
+        body {
+            background-color: bisque;
         }
        
     </style>
 </head>
 
 <body>
-    <div class="container-fluid nbg mt-3 d-md-none">
+    <div class="nbg mt-3 d-md-none">
         <nav class="navbar nav nav-tabs nav-pills" role="tablist">
             <li class="nav-item">
                 <a class="nav-link" href="index.html">Home</a>
@@ -58,8 +78,8 @@
           </nav>          
       </div>
     
-    <div class="row">
-    <div class="row container-fluid nbg mt-3 d-none d-md-flex col-md-3 col-lg-2">
+    <div>
+    <div class="nbg float-start mt-3 d-none d-md-flex col-md-3 col-lg-2">
         <div class="nav flex-column nav-tabs nav-pills" role="tablist">
             <ul class="container-fluid">
                 <li class="nav-item">
@@ -80,6 +100,101 @@
             </ul>
         </div>
     </div>
+    </div>
+
+    <div class="row col-sm-12 justify-content-center col-md-9 float-end col-lg-10">
+    <div class="card img col-sm-6 col-md-6 col-lg-6" style="width:300px">
+        <img class="card-img-top" src="moses.jpg" alt="Card image">
+        <div class="card-body">
+          <h4 class="card-title">Moses</h4>
+          <button type="button" link="https://www.ancienthistorylists.com/egypt-history/top-10-famous-people-egypt/" class="btn btn-primary" data-bs-toggle="tooltip" title="Moses was a religious leader in Egypt in 1391 BC. He was born in the Land of Goshen. He was also regarded as Israel’s lawgiver. During his time, the practice of slavery was common in Egypt. Slave masters exploited their slaves and treated them like animals.">More Info</button>
+          <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#moses">Collapsible</button>
+
+            <div id="moses" class="collapse">
+                <p>Moses was a religious leader in Egypt in 1391 BC. He was born in the Land of Goshen. He was also regarded as Israel’s lawgiver. During his time, the practice of slavery was common in Egypt. Slave masters exploited their slaves and treated them like animals.</p>
+            </div>
+        </div>
+      </div>
+
+      <div class="card img col-sm-6 col-md-6 col-lg-6" style="width:300px">
+        <img class="card-img-top" src="Maimonides.jpg" alt="Card image">
+        <div class="card-body">
+          <h4 class="card-title">Maimonides</h4>
+          <button type="button" link="https://www.ancienthistorylists.com/egypt-history/top-10-famous-people-egypt/" class="btn btn-primary" data-bs-toggle="tooltip" title="Maimonides was a very well-known Jewish philosopher. He was born in 1135 in Spain. Besides being a philosopher, he also was a physician and a scholar. He developed an interest in science and philosophy when he was very young. It was assumed that he followed the Ganoic tradition which many people were opposed to at the time believing that Muslim law was of greater importance.">More Info</button>
+          <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#Maimonides">Collapsible</button>
+
+            <div id="Maimonides" class="collapse">
+                <p>Maimonides was a very well-known Jewish philosopher. He was born in 1135 in Spain. Besides being a philosopher, he also was a physician and a scholar. He developed an interest in science and philosophy when he was very young. It was assumed that he followed the Ganoic tradition which many people were opposed to at the time believing that Muslim law was of greater importance.</p>
+            </div>
+        </div>
+      </div>
+
+      <div class="card img col-sm-6 col-md-6 col-lg-6" style="width:300px">
+        <img class="card-img-top" src="cleopatra.jpg" alt="Card image">
+        <div class="card-body">
+          <h4 class="card-title">Cleopatra</h4>
+          <button type="button" link="https://www.ancienthistorylists.com/egypt-history/top-10-famous-people-egypt/" class="btn btn-primary" data-bs-toggle="tooltip" title="">More Info</button> 
+          <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#cleopatra">Collapsible</button>
+
+          <div id="cleopatra" class="collapse">
+            <p>Cleopatra took over from her father on his death. She was well known for her beauty, as depicted in various paintings and sculptures, and for her strength as a ruler. Cleopatra was also knowledgeable in many other fields and during her reign, she dedicated her time to the administration of the Egyptian states. Her ability to speak multiple languages would have helped her with this task.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card img col-sm-6 col-md-6 col-lg-6" style="width:300px">
+        <img class="card-img-top" src="Hatshepsut.jpg" alt="Card image">
+        <div class="card-body">
+          <h4 class="card-title">Hatshepsut</h4>
+          <button type="button" link="https://www.ancienthistorylists.com/egypt-history/top-10-famous-people-egypt/" class="btn btn-primary" data-bs-toggle="tooltip" title="Hatshepsut served as pharaoh until Pharaoh Thutmose III was old enough to take power. She acted as the pharaoh for almost two decades and was very successful and loved by the people. Under her rule, Egypt was peaceful and flourished, many buildings and sanctuaries were constructed and the country became economically stable. She was the wife and sister of Thutmose II and went on to be the wife of Thutmose II’s son, Thutmose III.">More Info</button>  
+          <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#hatshepsut">Collapsible</button>
+
+          <div id="hatshepsut" class="collapse">
+            <p>Hatshepsut served as pharaoh until Pharaoh Thutmose III was old enough to take power. She acted as the pharaoh for almost two decades and was very successful and loved by the people. Under her rule, Egypt was peaceful and flourished, many buildings and sanctuaries were constructed and the country became economically stable. She was the wife and sister of Thutmose II and went on to be the wife of Thutmose II’s son, Thutmose III.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card img col-sm-6 col-md-6 col-lg-6" style="width:300px">
+        <img class="card-img-top" src="queen-nefertari.jpg" alt="Card image">
+        <div class="card-body">
+          <h4 class="card-title">Nefertiti</h4>
+          <button type="button" link="https://www.ancienthistorylists.com/egypt-history/top-10-famous-people-egypt/" class="btn btn-primary" data-bs-toggle="tooltip" title="Nefertiti’s royal bloodline cannot be confirmed but she claimed to be the daughter of Ay and his wife. She became the royal wife of the emperor, Akhenaten, and had six daughters with him. Old paintings show that she worshiped the sun god with her husband and taught her children to do so as well. After her husband’s death, she is known to have been co-regent with the pharaoh. She was a good administrator.">More Info</button>  
+          <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#nefertiti">Collapsible</button>
+
+          <div id="nefertiti" class="collapse">
+            <p>Nefertiti’s royal bloodline cannot be confirmed but she claimed to be the daughter of Ay and his wife. She became the royal wife of the emperor, Akhenaten, and had six daughters with him. Old paintings show that she worshiped the sun god with her husband and taught her children to do so as well. After her husband’s death, she is known to have been co-regent with the pharaoh. She was a good administrator.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card img col-sm-6 col-md-6 col-lg-6" style="width:300px">
+        <img class="card-img-top" src="ramses.jpg" alt="Card image">
+        <div class="card-body">
+          <h4 class="card-title">Ramses II</h4>
+          <button type="button" link="https://www.ancienthistorylists.com/egypt-history/top-10-famous-people-egypt/" class="btn btn-primary" data-bs-toggle="tooltip" title="Ramses II was the greatest and most celebrated Egyptian pharaoh of his time. At the age of 14, he was made prince by his father and he ruled for six decades after his father’s death. Early on in his reign, he built many monuments and temples to promote the Egyptian civilization. He fought numerous wars and made Egypt rich in resources before his death at the age of 90.">More Info</button>  
+          <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#ramses">Collapsible</button>
+
+          <div id="ramses" class="collapse">
+            <p>Ramses II was the greatest and most celebrated Egyptian pharaoh of his time. At the age of 14, he was made prince by his father and he ruled for six decades after his father’s death. Early on in his reign, he built many monuments and temples to promote the Egyptian civilization. He fought numerous wars and made Egypt rich in resources before his death at the age of 90.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card img col-sm-6 col-md-6 col-lg-6" style="width:300px">
+        <img class="card-img-top" src="Tutankhamun.jpg" alt="Card image">
+        <div class="card-body">
+          <h4 class="card-title">Tutankhamun</h4>
+          <button type="button" link="https://www.ancienthistorylists.com/egypt-history/top-10-famous-people-egypt/" class="btn btn-primary" data-bs-toggle="tooltip" title="Tutankhamun was a very young pharaoh. Born in 1332 BC, he was married off at a very early age to his half-sister Ankhesenamun. He passed away when he was just 18. During his reign, he changed the god that the Egyptians used to worship from the Aten god to the Amun god. He built temples to the Amun god and then named himself Tutankhamun that meant the living image of Amun.">More Info</button>  
+          <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#tutankhamun">Collapsible</button>
+
+          <div id="tutankhamun" class="collapse">
+            <p>Tutankhamun was a very young pharaoh. Born in 1332 BC, he was married off at a very early age to his half-sister Ankhesenamun. He passed away when he was just 18. During his reign, he changed the god that the Egyptians used to worship from the Aten god to the Amun god. He built temples to the Amun god and then named himself Tutankhamun that meant the living image of Amun.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
     
         </div>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
